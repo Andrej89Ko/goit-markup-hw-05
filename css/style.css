@@ -234,8 +234,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 20%;
-  left: 60%;
+  top: 8px;
+  right: 8px;
   width: 30px;
   height: 30px;
   padding: 0px;
@@ -683,8 +683,9 @@ body {
   background-color: var(--c-blue);
   width: 370px;
   height: 294px;
-  opacity: 0;
+  transform: translateY(100%);
   padding: 63px 24px;
+  overflow: auto;
 
   transition-property: transform, opacity;
   transition-duration: 250ms;
